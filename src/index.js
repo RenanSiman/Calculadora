@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Calculator from './main/Calculator';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Calculator from "./main/Calculator";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <Calculator />,
-  document.getElementById('root')
+  <div>
+    <h1>Calculadora</h1>
+    <Calculator />
+  </div>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
